@@ -1,0 +1,12 @@
+name: twin
+version: "0.1.0"
+license: free
+runtime: binary
+binary: handler.sh
+actions: [ping, scan, report, finish, clear]
+timeout_sec: 120
+data_dir: data
+needs_docker: false
+description: >
+  Exact-duplicate scan over a declared drive list. Size-groups first,
+  then SHA-256. Archives are read in place; members are not unpacked.

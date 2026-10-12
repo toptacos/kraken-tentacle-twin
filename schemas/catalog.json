@@ -1,0 +1,9 @@
+{
+  "name": "twin",
+  "version": "0.1.0",
+  "license": "free",
+  "author_email": "dev@localhost",
+  "source": "",
+  "description": "Exact duplicate scan over declared drives, including archive members.",
+  "actions": "ping,scan,report,finish,clear"
+}
